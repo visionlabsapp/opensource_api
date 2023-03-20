@@ -16,8 +16,8 @@ RIGHT_EYE_OUTLINE = [159, 133, 145, 33]
 def read_root():
     return {"Hello": "World"}
 
-@app.get("/personalitytype/{imagepath}")
-def personalitytype(imagepath):
+@app.get("/face_ratio/{imagepath}")
+def face_ratio(imagepath):
     
     return [{"face_ratio": "0.223", "mouth_ratio": "0.456", "left_eye_ratio": "0.234", "right_eye_ratio": "0.24",}]
 
